@@ -19,7 +19,7 @@ and prints it into standard output e.g.
 
 
 
-##Explained: 
+## Explained 
 
 To get every number [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) must computed and 
 it's done by calculating number of Combinations for specific place
