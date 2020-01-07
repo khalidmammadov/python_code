@@ -1,9 +1,9 @@
-# Pascal Triangle in Python
+# Pascal's Triangle in Python
 
 ## Overview
 
 This module uses Python 3.8's a new feature 'math.comb'
-to calculate [Pascal Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle) 
+to calculate [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle) 
 and prints it into standard output e.g.
 
                      1
@@ -25,3 +25,11 @@ To get every number [binomial coefficient](https://en.wikipedia.org/wiki/Binomia
 it's done by calculating number of Combinations for specific place
 by using [combination formula](https://en.wikipedia.org/wiki/Combination)
 givig row number as number of elements and column no as number of choices.
+
+## Execution
+
+You can run by simply running
+```
+make unittest
+make run
+```

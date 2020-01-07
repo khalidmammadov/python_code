@@ -1,7 +1,7 @@
 """
     This module uses Python 3.8's a new feature
     'math.comb'
-    to calculate Pascal Triangle (https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+    to calculate Pascal's Triangle (https://en.wikipedia.org/wiki/Pascal%27s_triangle)
     and prints it into standard output
     e.g.
                      1
@@ -42,7 +42,7 @@ def build_triangle(rows = 10):
 
 def print_nicely(pascal_triangle):
     """
-       Print a Pascal Triangle
+       Print a Pascal's Triangle
        iterable of iterables i.e. line and col
     """
     for _row in pascal_triangle:
