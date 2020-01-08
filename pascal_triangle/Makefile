@@ -17,6 +17,6 @@ run:
 	$(PYTHON) pascal.py
 
 unittest:
-	$(PYTHON) -m unittest
+	(cd ../; $(PYTHON) -m unittest)
 
 

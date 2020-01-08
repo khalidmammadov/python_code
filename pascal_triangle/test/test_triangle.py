@@ -1,5 +1,5 @@
 import unittest
-import pascal
+import pascal_triangle.pascal as pascal
 
 
 class TestPascalsTriangle(unittest.TestCase):
