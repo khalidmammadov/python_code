@@ -17,8 +17,12 @@ if __name__ == "__main__":
             a deterministic system is a system in which no 
             randomness is involved in the development of future states of the system"""
 
+    times = []
+
     for i in range(3):
         start_time = time.perf_counter()
         count = count_words(sen)
         stop_time = time.perf_counter()
-        print("Exec #{} time: {:.9f}".format(i, stop_time-start_time))
+        time_taken = stop_time-start_time
+        times.append(time_taken)
+        print("Exec #{} time: {:.9f} performance gain {:%}".format(i, time_taken, 1-times[i]/times[0]))
